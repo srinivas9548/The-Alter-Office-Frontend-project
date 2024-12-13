@@ -1,0 +1,70 @@
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.profile-info-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.home-profile-upload-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.default-profile-icon {
+    font-size: 50px;
+    color: #bbc;
+}
+
+.greeting-message {
+    font-size: 12px;
+    font-weight: 400;
+    color: #00000054;
+    line-height: 12px;
+}
+
+.profile-name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 12px;
+    color: #000000;
+}
+
+.feeds-heading {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    color: #000000;
+    margin: 25px 0px 15px 0px;
+}
+
+.post-add-button {
+    position: absolute;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
